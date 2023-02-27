@@ -3,9 +3,9 @@
 # FIU Department of Mechanical and Materials Engineering
 # http://mme.fiu.edu
 #
-# Seres de brinquedo no universo de briquedo
-# Sintetizar um Paramecyum a partir da sequencia de 87M
-# Paramecium tetraurelia (ASM16542v1) formato FASTA download em https://protists.ensembl.org/Paramecium_tetraurelia/Info/Index
+# Toy beings for a toy universe
+# Synth a Paramecyum from the 87M sequence for Paramecium tetraurelia (ASM16542v1) 
+# Format FASTA download from https://protists.ensembl.org/Paramecium_tetraurelia/Info/Index
 
 import random
 import math
@@ -18,7 +18,7 @@ class Element:
 
 
 '''
-# Cola: matematica da treta
+# Cheat: the maths of the deal
 Neutron: ψ(x, y, z) = Ae^(-r^2/2σ^2)
 Oxygen: Ψ = Ψ(x1, y1, z1, x2, y2, z2, ..., xN, yN, zN)
 Hydrogen: Ψ(r, θ, φ) = R(r) * Y(θ, φ)
@@ -235,10 +235,3 @@ dna = sintetizar_dna(genome)
 
 # Output the synthesized DNA
 print(dna)
-
-
-
-
-
-
-
