@@ -112,10 +112,6 @@ def sintetizar_citosina():
 def sintetizar_guanina():
     # Perform enzymatic steps to synthesize guanine
     precursores = [[(Carbon(), 5), (Hydrogen(), 5), (Neutron(), 1)], [(Carbon(), 4), (Hydrogen(), 5), (Neutron(), 3)]]
-    enzimas =
-def sintetizar_guanina():
-    # Perform enzymatic steps to synthesize guanine
-    precursores = [[(Carbon(), 5), (Hydrogen(), 5), (Neutron(), 1)], [(Carbon(), 4), (Hydrogen(), 5), (Neutron(), 3)]]
     enzimas = [[(Carbon(), 4), (Hydrogen(), 4), (Neutron(), 1)], [(Carbon(), 2), (Hydrogen(), 3), (Neutron(), 3)], [(Carbon(), 2), (Oxygen(), 1), (Hydrogen(), 3), (Neutron(), 1)]]
     # Each enzyme is represented as a list of tuples, indicating the atoms it contains and their number
     for precursor in precursores:
