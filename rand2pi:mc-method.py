@@ -4,14 +4,14 @@
 # http://mme.fiu.edu Interdisciplinary with https://case.fiu.edu/philosophy/
 # PHI-2100, PHI-2600 https://m.fiu.edu/catalog/index.php?action=courseList&subject=PHI
 # Monte Carlo method to find π from random
-import random
+import quantumrandom as qr
 import math
 
 def encontra_pi(n):
     m = 0
     for i in range(n):
-        x = random.uniform(0, 1)
-        y = random.uniform(0, 1)
+        x = qr.randfloat()
+        y = qr.randfloat()
         m += (x ** 2 + y ** 2 < 1)
     return 4 * m / n
 
